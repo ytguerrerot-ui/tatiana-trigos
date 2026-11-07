@@ -64,59 +64,6 @@ public class MonitorRed {
         return suma;
     }
 
-    public static int contarValoresEnRango(int[] t, int min, int max) {
-        int c = 0;
-        for (int x : t)
-            if (x >= min && x <= max) c++;
-        return c;
-    }
-
-    public static int contarMayoresQue(int[] t, int limite) {
-        int c = 0;
-        for (int x : t)
-            if (x > limite) c++;
-        return c;
-    }
-
-    public static double calcularPromedio(int suma, int n) {
-        return (double) suma / n;
-    }
-
-    public static int contarMenoresQue(int[] t, double p) {
-        int c = 0;
-        for (int x : t)
-            if (x < p) c++;
-        return c;
-    }
-
-    public static int buscarMenorTiempo(int[] t) {
-        int menor = t[0];
-        for (int x : t)
-            if (x < menor) menor = x;
-        return menor;
-    }
-
-    public static int buscarPrimeraPosicionMenor(int[] t, int menor) {
-        for (int i = 0; i < t.length; i++)
-            if (t[i] == menor) return i + 1;
-        return -1;
-    }
-
-    public static void mostrarResumenFinal(int[] t, int rango,
-            int mayores, int total, double promedio, int menor,
-            int inferiores, int posicion) {
-
-        System.out.println("\n--- RESUMEN ---");
-        for (int i = 0; i < t.length; i++)
-            System.out.println("Medición " + (i + 1) + ": " + t[i] + " ms");
-
-        System.out.println("Entre 20 y 200: " + rango);
-        System.out.println("Mayores de 200: " + mayores);
-        System.out.println("Total: " + total + " ms");
-        System.out.printf("Promedio: %.2f ms%n", promedio);
-        System.out.println("Menor tiempo: " + menor + " ms");
-        System.out.println("Inferiores al promedio: " + inferiores);
-        System.out.println("Primera aparición del menor: Medición " + posicion);
     }
 }
 
