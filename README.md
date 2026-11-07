@@ -108,36 +108,33 @@ El programa también será probado con otros valores, incluyendo datos inválido
 ## ANALISIS
 
 ## entradas
-con s datos que el usuario debe ingresar al programa.
-Cantidad de mediciones (entre 3 y 20).
-Tiempos de respuesta del servidor en milisegundos (entre 20 y 500 ms).
-Cada tiempo debe inresarse y validarse antes de almacenarse en el arreglo.
+losdatos que el usuario debe ingresar al programa.
+Cantidad de medicione entre 3 y 20
+Tiempos de respuesta del servidor en milisegundos entre 20 y 500 ms 
+Cada tiempo debe inresarse y validarse antes de almacenarse en el arreglo
 
 ## procesos 
-Son las operaciones que realiza el programa con los datos ingresados.
-Solicitar y validar que la cantidad de mediciones esté entre 3 y 20.
-Solicitar los tiempos de respuesta.
-Validar que cada tiempo esté entre 20 y 500 ms. Si es inválido, solicitarlo nuevamente.
-Almacenar los tiempos válidos en un arreglo.
-Contar cuántos tiempos están entre 20 y 200 ms.
-Contar cuántos tiempos son superiores a 200 ms.
-Sumar todos los tiempos registrados.
-Calcular el promedio de los tiempos.
-Buscar el menor tiempo registrado.
-Identificar la primera posición donde aparece el menor tiempo.
-Contar cuántos tiempos son inferiores al promedio.
-Mostrar los tiempos registrados con una numeración desde 1.
-
+Son las operaciones que realiza el programa con los datos ingresados
+Solicitar y validar que la cantidad de mediciones esté entre 3 y 20
+Solicitar los tiempos de respuesta
+Validar que cada tiempo esté entre 20 y 500 ms. Si es inválido,solicitarlo nuevamente
+Almacenar los tiempos válidos en un arreglo
+Contar cuántos tiempos están entre 20 y 200 ms
+Contar cuántos tiempos son superiores a 200 ms
+Sumar todos los tiempos registrados
+Calcular el promedio de los tiempos
+Buscar el menor tiempo registrado
+Identificar la primera posición donde aparece el menor tiempo
+Contar cuántos tiempos son inferiores al promedio
+Mostrar los tiempos registrados con una numeración desde 1
 ## salidas
-Son los resultados que el programa presenta al usuario.
-Cantidad de mediciones entre 20 y 200 ms.
-Cantidad de mediciones superiores  200 ms.
+Son los resultados que el programa presenta al usuario
+Cantidad de mediciones entre 20 y 200 ms
+Cantidad de mediciones superiores  200 ms
 Tiempo total acumulado
-Promedio de los tiempos de respuesta.
-Menor tiempo registrado.
-Cantidad de mediciones inferiores al promedio.
-Número de la primera medición donde apareció el menor tiempo.
-Listado numerado de todos los tiempos registrados.
-
-arregla
+Promedio de los tiempos de respuesta
+Menor tiempo registrado
+Cantidad de mediciones inferiores al promedio
+Número de la primera medición donde apareció el menor tiempo
+Listado numerado de todos los tiempos registrado
 
